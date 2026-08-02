@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    padding: 10px;
+    font-family: "Saira", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+margin-top: 20px;
+    margin-bottom: 100px;
+    /* border: 2px solid green; */
+}
+
+.nav-logo {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+}
+
+.nav-text {
+    /* border: 2px solid rgb(58, 22, 22); */
+    max-width: 60vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.04em;
+}
+
+.hero {
+    display: flex;
+
+}
+
+.hero-left {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    padding: 10px;
+}
+
+
+.hero-left h3 {
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.hero-left button {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    /* border: 2px solid yellow; */
+}
+
+.hero-right img {
+    /* border: 2px solid aqua; */
+    width: 50%;
+}
+
+.lower-crousel {
+    display: flex;
+    width: 100%;
+    /* border: 2px solid brown; */
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.crousel-el {
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 2px;
+    height: 50px;
+}
+
+.amazon {
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.Amtad6cu5WsYrZ3gC2IgGgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3");
+}
